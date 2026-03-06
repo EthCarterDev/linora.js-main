@@ -6,5 +6,6 @@ module.exports = {
 
   transform: {
     '.ts$': ['ts-jest', { tsconfig: './tsconfig.jest.json' }],
+    
   },
 };
