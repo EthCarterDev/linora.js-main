@@ -24,6 +24,7 @@ export function configFactory(): linoraConfig {
           '0x6f373b346561036d98ea10fb3e60d2f459c872b1933b50b21fe6ef4fda3b75e',
         l2BridgeAddress:
           '0x46e9237f5408b5f899e72125dd69bd55485a287aaf24663d3ebe00d237fc7ef',
+        
       },
     },
   };
