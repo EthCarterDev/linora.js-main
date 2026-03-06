@@ -7,6 +7,7 @@ import { ethersSignerAdapter } from '../src/ethereum-signer';
 import { configFactory } from './factories/linora-config';
 import { createMockProvider } from './mocks/provider';
 
+
 describe('linoraClient', () => {
   describe('createFromEthSigner', () => {
     test('should create client from Ethereum signer', async () => {
