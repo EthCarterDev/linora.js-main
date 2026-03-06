@@ -80,6 +80,7 @@ const client = await linora.Client.fromStarknetAccount({
 });
 ```
 
+
 ### Configuration
 
 Fetch environment-specific configuration:
