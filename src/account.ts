@@ -27,6 +27,7 @@ interface DeriveFromEthSignerParams {
  * Internal use only - use linoraClient.createFromEthSigner() instead.
  * @internal
  * @returns The account address and private key.
+ 
  */
 export async function deriveFromEthSigner({
   config,
