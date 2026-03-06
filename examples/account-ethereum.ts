@@ -8,6 +8,7 @@ const config = await linora.Config.fetch('testnet'); // "testnet" | "mainnet"
 // 2. Create client from Ethereum wallet
 const ethersProvider = new ethers.JsonRpcProvider(
   'https://ethereum-sepolia.publicnode.com',
+  
 );
 const wallet = new ethers.Wallet('0x...', ethersProvider);
 const signer = linora.Signer.fromEthers(wallet);
