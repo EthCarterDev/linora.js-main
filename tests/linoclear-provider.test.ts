@@ -30,6 +30,7 @@ describe('AuthenticatedRpcProvider', () => {
 
     // Verify it's an RpcProvider with the correct URL
     expect(provider).toBeInstanceOf(Starknet.RpcProvider);
+    
   });
 });
 
