@@ -29,7 +29,8 @@ describe('generateAuthSignature', () => {
       account: '0x1',
       signature: ['1234', '5678'],
       timestamp: expect.stringMatching(/^\d+$/),
-      id: expect.any(Number),
+      id: expect.any(Number)
+      ,
     });
 
     // Verify signMessage was called with correct structure
