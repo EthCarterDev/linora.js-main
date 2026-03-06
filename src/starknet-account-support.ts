@@ -28,6 +28,7 @@ const KEPLR_OZ_V0_17_0_CLASS_HASH =
 const XVERSE_ARGENT_V0_4_0_CLASS_HASH =
   '0x0663fc01a0dbe1bacc4cd2a4c856eb9784b255a20988aa33d4d52b6fc20bd024';
 
+
 type SignatureFormat =
   | 'argent-v0.3.0'
   | 'argent-v0.3.1'
