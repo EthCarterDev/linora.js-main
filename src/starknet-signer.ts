@@ -14,6 +14,7 @@ export function buildStarknetStarkKeyTypedData(
     domain: {
       name: 'linora',
       chainId: starknetChainId,
+      
       version: '1',
     },
     primaryType: 'Constant',
