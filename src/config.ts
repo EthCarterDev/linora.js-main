@@ -14,6 +14,7 @@ interface RawBridgedTokenConfig {
   readonly l1_bridge_address: Hex;
   readonly l2_token_address: Hex;
   readonly l2_bridge_address: Hex;
+  
 }
 
 export interface RawlinoraConfig {
