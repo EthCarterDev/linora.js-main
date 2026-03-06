@@ -10,6 +10,7 @@ declare global {
 
 const AMOUNT = '200'; // USDC amount to withdraw
 
+
 // Flow summary:
 //  1. Fetch config
 //  2. Create client
