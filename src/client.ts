@@ -13,6 +13,7 @@ import * as Paraclear from './paraclear.js';
 export interface CreateClientFromEthSignerParams {
   readonly config: linoraConfig;
   readonly signer: EthereumSigner;
+  
 }
 
 export interface CreateClientFromStarknetAccountParams {
