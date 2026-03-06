@@ -37,6 +37,7 @@ export class AuthenticatedRpcProvider extends Starknet.RpcProvider {
 }
 
 export class DefaultProvider extends AuthenticatedRpcProvider {
+  
   private readonly account?: Account;
   private readonly nodeUrl: string;
 
